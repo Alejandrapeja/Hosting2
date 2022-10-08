@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="Estilos/Estilo.css">
+  <link rel="icon" type="image/x-icon" href="Img/favicon.ico">
+    <head>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+      <script src="galleria/galleria.js"></script>
+    </head>
+    <div class="header">
+      <h1>Moris Blog</h1>
+    </div>
+
+    <nav class="MenuPrincipal">
+      <ul>
+        <li class ="MenuPObj"><a class = "MenuPEnlace escala" href="#Galeria"><b>Galeria</b></a></li>
+        <li class ="MenuPObj"><a class = "MenuPEnlace escala" href="#Agenda"><b>Agenda</b></a></li>
+        <li class ="MenuPObj"><a class = "MenuPEnlace escala" href="#Videos"><b>Videos</b></a></li>
+        <li class ="MenuPObj"><a class = "MenuPEnlace escala" href="#Cuentame"><b>Cuentame</b></a></li>
+        <li class ="MenuPObj"><a class = "MenuPEnlace escala" href="#Contactos"><b>Contactos</b></a></li>
+      </ul>
+    </nav>
+
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card"> <!--Musica-->
+          <div class="fakeimg" style="height:150px;">
+            <p>¿Que tal algo de musica?  "Vishmak - Happy Bird" </p>
+            <audio controls>
+              <source src="Img/Cute.mp3" type="audio/mpeg">
+            </audio></div>
+        </div>
+
+        <div class="card"><!--Galeria-->
+          <a name="Galeria"></a>
+          <h2>Galeria de varias fotos</h2>
+          <h5>Fotos tomadas a lo largo de 2018</h5>
+          <div class="fakeimg">
+            <div class="galleria">
+            <img src="Img/Packed.jpg">
+            <img src="Img/FunnyFace.jpg">
+            <img src="Img/Eating.jpg">
+            <img src="Img/BabySleep.jpg">
+            </div>
+            <script>
+              (function() {
+                Galleria.loadTheme('galleria/themes/classic/galleria.classic.js');
+                Galleria.run('.galleria');
+              }());
+          </script>
+          </div>
+          <p>Muy buenas memorias de cuando me empacaron (no llegue en esa caja no se preocupen), haciendo caras a la cámara, esperando a que abran los churros y durmiendo como bebé u///u</p>
+        </div>
+  
+        <div class="card">
+          <a name="Videos"></a>
+          <h2>Moris Con Su Rana</h2>
+          <h5>El primer juguete que recibí, May 30, 2018</h5>
+          <div class="fakeimg" >
+          <video width="500" height="500" controls>
+            <source src="Img/Rana.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+          <p>Esa rana no duro mucho, ni mi cama, en ese entonces era una canasta pero ahora tengo toda una caja grande para mi</p>
+        </div>
+        <div class="card">
+          <h2>La Roba Chanclas</h2>
+          <h5>Robando chanclas, Jun 4, 2018</h5>
+          <div class="fakeimg"><center>          
+            <video style="width: 50%; height: 50%;" controls >
+             <source src="Img/Chancla.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video></center>
+
+          </div>
+          <p>Aun que en un inicio no me la querian dar al final se las quite y realice un escape epico B)</p>
+        </div>
+        <div class="card">
+          <a name="Agenda"></a>
+          <h2>Mi agenda</h2>
+          <div class="fakeimg">
+            <table cellspacing="7" cellpadding="10" border="3" align="center"> 
+              <tr style="font-family: 'FSS';"> 
+                 <td style="font-size: 35px;text-shadow: 2px 2px rosybrown;">FECHA</td> 
+                 <td style="font-size: 35px;text-shadow: 2px 2px rosybrown;">PENDIENTE</td> 
+                 <td style="font-size: 35px;text-shadow: 2px 2px rosybrown;">CUMPLIDO</td>
+              </tr> 
+              <tr> 
+                 <td> Febrero 2022</td> 
+                 <td> Desparasitación</td>
+                 <td><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></td> 
+              </tr>
+              <tr> 
+                 <td> Marzo 2022</td> 
+                 <td> Vacunación anual</td>
+                 <td><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></td> 
+              </tr>
+              <tr> 
+                 <td> Mayo 2022</td> 
+                 <td> Desparasitación</td>
+                 <td><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></td> 
+              </tr>
+              <tr> 
+                 <td> Agosto 2022</td> 
+                 <td> Desparasitación</td>
+                 <td><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></td> 
+              </tr>
+              <tr> 
+                 <td> Septiembre 2022</td> 
+                 <td> Vacunación Anual</td>
+                 <td><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></td> 
+              </tr>
+              <tr> 
+                 <td> Noviembre 2022</td> 
+                 <td> Desparasitación</td>
+                 <td><br><br></td> 
+              </tr>      
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="rightcolumn">
+        <div class="card">
+          <ul style="align-content: center; margin-bottom: 2px;">
+            <li class="MenuPObj"><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></li>
+            <li class="MenuPObj"><p style="position: relative; bottom: 10px;">Contador de visitas</p></li>
+            <li class="MenuPObj"><img src="Img/Paw.png" style="width: 50px; align-content: center;" style="display: inline;"></li>
+          </ul>
+          <center>
+            <a href="https://websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+              <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=5625">
+            </a>
+          </center>
+          
+        </div>
+  
+        <div class="card">
+          <h2>Sobre Mi</h2>
+          <div class="fakeimg"><img src="Img/Baby.jpg" ></div>
+          <p>Hola! soy Moris, soy una perrita salchicha nacida en abril del 2018 y este es un blog con algunas de mis aventuras, espero lo disfruten nwn</p>
+        </div>
+        <div class="card">
+          <h2>Una Secuencia Divertida</h2>
+         <div class="fakeimg"><img src="Img/Desmayo1.jpg" ></div><br>
+         <div class="fakeimg"><img src="Img/Desmayo2.jpg" ></div><br>
+        </div>
+        <div class="card">
+         <h2>Mis Redes Sociales</h2>
+         <p>... De hecho no tengo pero igual y deberia abrir un instagram</p>
+        </div>
+        <div class="card">
+          <h2>Cuentame</h2>
+          <div class="fakeimg">
+            <a name="Cuentame"></a>
+            <center>
+            <form action="mailto:alejandra.pena@uniat.edu.mx" method="post" enctype="text/plain">
+              <p>Ahora cuentame, ¿tienes mascotas?</p>
+              <input type="checkbox" name="TienesMascota">
+              <p>¿Cómo se llama?</p>
+              <input type="text" name="Nombre">
+              <p>¿Qué es?</p>
+              <input type="text" name="Tipo">
+              <p>Cuentame alguna historia divertida que hayas tenido con el/ella/ellos</p>
+              <textarea name="Historia" rows="40" ></textarea>
+              <p>bien, ¿listo para enviar o prefieres reiniciar?</p>
+              <input type="submit" name="Enviar"><input type="reset" name="Borrar">
+            </form>
+            </center>
+          </div>
+        </div>       
+     </div>
+    </div>    
+
+    <div class="footer">
+      <a name="Contactos"></a>
+      <a href="mailto:alejandra.pena@uniat.edu.mx" class="MenuPObj"><img src="Img/mail.png" style="width: 50px; align-content: center;" style="display: inline;"></a>      
+      <h2 class="MenuPObj" style="position: relative; bottom: 10px;">Contacta a mi humana</h2>
+      <a href="https://www.instagram.com/kynarethkira/" class="MenuPObj"><img src="Img/insta.png" style="width: 50px; align-content: center;" style="display: inline;"></a>
+    </div>
+
+
+
+</html>
